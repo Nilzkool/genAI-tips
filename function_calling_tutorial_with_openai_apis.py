@@ -18,7 +18,7 @@ def get_current_weather(location, unit="fahrenheit"):
 
 def start_conversation(prompt=''):
     """Start the conversation with the model"""
-    messages = [{"role": "user", "content": "What's the weather like in San Francisco, Tokyo, and Paris?"}]
+    messages = [{"role": "user", "content": prompt}]
     return messages
 
 def define_tools():
