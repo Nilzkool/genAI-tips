@@ -16,7 +16,7 @@ def get_current_weather(location, unit="fahrenheit"):
     }
     return json.dumps(weather_data.get(location.title(), {"temperature": "unknown"}))
 
-def start_conversation():
+def start_conversation(prompt=''):
     """Start the conversation with the model"""
     messages = [{"role": "user", "content": "What's the weather like in San Francisco, Tokyo, and Paris?"}]
     return messages
@@ -97,7 +97,8 @@ def complete_conversation(messages):
 
 # Main execution flow
 if __name__ == "__main__":
-    messages = start_conversation()
+    prompt = "What's the weather like in San Francisco, Tokyo, and Paris?"
+    messages = start_conversation(prompt)
     tools = define_tools()
     response = process_response(messages, tools)
     messages = handle_function_calls(response, messages, 
