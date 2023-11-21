@@ -1,0 +1,10 @@
+# Python-specific #
+####################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment settings #
+####################
+.env

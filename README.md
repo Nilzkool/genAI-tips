@@ -6,3 +6,4 @@
 
 3. function_calling_tutorial_with_openai_apis.py A tutorial on how to use function calling functionality of OpenAI APIs (openai v1.2+): Tweet: https://twitter.com/Nilzkool/status/1726642790166102499 
 
+4. openai_moderation_api.ipynb: A notebook on how to use OpenAI moderations APIs (openai v1.2+): Tweet: https://twitter.com/Nilzkool/status/1726966561163071818 
