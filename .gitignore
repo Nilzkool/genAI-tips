@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+.ipynb_checkpoints
 
 # Environment settings #
 ####################
