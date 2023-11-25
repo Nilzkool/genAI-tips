@@ -4,6 +4,8 @@
 
 2. openai1-2_get_completion.py: A tip on how to use the new chat completions openAI API (v1.0+). Tweet: https://twitter.com/Nilzkool/status/1725563468969914404
 
-3. function_calling_tutorial_with_openai_apis.py A tutorial on how to use function calling functionality of OpenAI APIs (openai v1.2+): Tweet: https://twitter.com/Nilzkool/status/1726642790166102499 
+3. function_calling_tutorial_with_openai_apis.py A tutorial on how to use function calling functionality of OpenAI APIs (openai v1.2+). Tweet: https://twitter.com/Nilzkool/status/1726642790166102499 
 
-4. openai_moderation_api.ipynb: A notebook on how to use OpenAI moderations APIs (openai v1.2+): Tweet: https://twitter.com/Nilzkool/status/1726966561163071818 
+4. openai_moderation_api.ipynb: A notebook on how to use OpenAI moderations APIs (openai v1.2+). Tweet: https://twitter.com/Nilzkool/status/1726966561163071818
+
+5. jupyternb_chatbot.ipynb: A notebook on creating a chatbot in Jupyter notebooks using the panel Python Package. Tweet: https://twitter.com/Nilzkool/status/1728100214592971065
